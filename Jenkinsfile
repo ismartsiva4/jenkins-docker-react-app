@@ -18,7 +18,7 @@ node {
     }
         
     stage('Run the container Locally on the Jenkins server') {
-        sh "docker run -itd --name react-app -p 80:80 cloudwithraghu/react-app:latest"
+        sh "docker run -itd --name react-app -p 80:80 ismartsiva4/react-app:latest"
      
     }
   }
