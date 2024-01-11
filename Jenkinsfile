@@ -1,7 +1,7 @@
 node {   
     stage('Clone Github repository') {
         git branch: 'master',
-        git credentialsId: 'github-creds', url: 'https://github.com/ismartsiva4/jenkins-docker-react-app.git'
+        git credentialsId: 'ismartsiva4', url: 'https://github.com/ismartsiva4/jenkins-docker-react-app.git'
     }
     
     stage('Build image') {
