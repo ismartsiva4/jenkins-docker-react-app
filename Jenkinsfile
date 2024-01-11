@@ -4,7 +4,7 @@ node {
     }
     
     stage('Build image') {
-       dockerImage = docker.build("cloudwithraghu/react-app:latest")
+       dockerImage = docker.build("ismartsiva4/react-app:latest")
     }
     
     stage('Push image') {
