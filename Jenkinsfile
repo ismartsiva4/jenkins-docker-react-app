@@ -1,5 +1,5 @@
 node {   
-    stage('Clone Github repository') {
+    stage('SCM') {
         git credentialsId: 'ismartsiva4', url: 'https://github.com/ismartsiva4/jenkins-docker-react-app.git'
     }
     
